@@ -1,0 +1,26 @@
+{
+  "newsPortalApp": {
+    "news": {
+      "home": {
+        "title": "News",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый News",
+        "createOrEditLabel": "Создать или отредактировать News",
+        "notFound": "News не найдено"
+      },
+      "created": "Новый News создан с идентификатором {{ param }}",
+      "updated": "News обновлен с идентификатором {{ param }}",
+      "deleted": "News удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить News {{ id }}?"
+      },
+      "detail": {
+        "title": "News"
+      },
+      "id": "ID",
+      "title": "Title",
+      "body": "Body",
+      "date": "Date"
+    }
+  }
+}

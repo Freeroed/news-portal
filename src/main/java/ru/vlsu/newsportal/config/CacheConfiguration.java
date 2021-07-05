@@ -48,6 +48,8 @@ public class CacheConfiguration {
             createCache(cm, ru.vlsu.newsportal.domain.User.class.getName());
             createCache(cm, ru.vlsu.newsportal.domain.Authority.class.getName());
             createCache(cm, ru.vlsu.newsportal.domain.User.class.getName() + ".authorities");
+            createCache(cm, ru.vlsu.newsportal.domain.News.class.getName());
+            createCache(cm, ru.vlsu.newsportal.domain.Event.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

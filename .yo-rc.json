@@ -42,6 +42,8 @@
     "devServerPort": 4200,
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["ru"]
+    "languages": ["ru"],
+    "entities": ["News", "Event"],
+    "lastLiquibaseTimestamp": 1625322355000
   }
 }

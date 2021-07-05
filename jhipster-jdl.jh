@@ -1,0 +1,15 @@
+
+entity News {
+	title String,
+    body String,
+    date Instant
+    
+}
+
+entity Event {
+	title String,
+    body String,
+    startAt Instant,
+    finishedAt Instant,
+    place String
+}
